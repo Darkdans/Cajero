@@ -146,7 +146,7 @@ namespace RecoinssoFinal.DataAccess
             }
         }
 
-        public int nombreUsuarioPorClave(int password)
+        public int nombreUsuarioPorClave(int ID)
         {
             int usuarioID = 0;
             try
@@ -155,7 +155,7 @@ namespace RecoinssoFinal.DataAccess
                 {
 
                     conexion.Open();
-                    using (SqlCommand commando = new SqlCommand("SELECT usuariosID FROM Usuarios WHERE password ='" + password + "'", conexion))
+                    using (SqlCommand commando = new SqlCommand("SELECT usuariosID FROM Usuarios WHERE usuariosID ='" + ID + "'", conexion))
                     {
                         SqlDataReader registro = commando.ExecuteReader();
                         if (registro.Read())
