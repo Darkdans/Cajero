@@ -1,0 +1,56 @@
+C:\Users\LEO\Desktop\Proyecto de Escritorio FIME\RecoinssoFinal\RecoinssoFinal\bin\Debug\RecoinssoFinal.exe.config
+C:\Users\LEO\Desktop\Proyecto de Escritorio FIME\RecoinssoFinal\RecoinssoFinal\bin\Debug\RecoinssoFinal.exe
+C:\Users\LEO\Desktop\Proyecto de Escritorio FIME\RecoinssoFinal\RecoinssoFinal\bin\Debug\RecoinssoFinal.pdb
+C:\Users\LEO\Desktop\Proyecto de Escritorio FIME\RecoinssoFinal\RecoinssoFinal\obj\Debug\RecoinssoFinal.csproj.AssemblyReference.cache
+C:\Users\LEO\Desktop\Proyecto de Escritorio FIME\RecoinssoFinal\RecoinssoFinal\obj\Debug\RecoinssoFinal.csproj.SuggestedBindingRedirects.cache
+C:\Users\LEO\Desktop\Proyecto de Escritorio FIME\RecoinssoFinal\RecoinssoFinal\obj\Debug\RecoinssoFinal.Properties.Resources.resources
+C:\Users\LEO\Desktop\Proyecto de Escritorio FIME\RecoinssoFinal\RecoinssoFinal\obj\Debug\RecoinssoFinal.csproj.GenerateResource.cache
+C:\Users\LEO\Desktop\Proyecto de Escritorio FIME\RecoinssoFinal\RecoinssoFinal\obj\Debug\RecoinssoFinal.csproj.CoreCompileInputs.cache
+C:\Users\LEO\Desktop\Proyecto de Escritorio FIME\RecoinssoFinal\RecoinssoFinal\obj\Debug\RecoinssoFinal.exe
+C:\Users\LEO\Desktop\Proyecto de Escritorio FIME\RecoinssoFinal\RecoinssoFinal\obj\Debug\RecoinssoFinal.pdb
+C:\Users\LEO\Desktop\Proyecto de Escritorio FIME\RecoinssoFinal\RecoinssoFinal\obj\Debug\RecoinssoFinal.LoginForm.resources
+C:\Users\LEO\Desktop\Proyecto de Escritorio FIME\RecoinssoFinal\RecoinssoFinal\obj\Debug\RecoinssoFinal.Presentación.NewUser.resources
+C:\Users\LEO\Desktop\Repositorios\Darkdans\Management-system\RecoinssoFinal\RecoinssoFinal\bin\Debug\RecoinssoFinal.exe.config
+C:\Users\LEO\Desktop\Repositorios\Darkdans\Management-system\RecoinssoFinal\RecoinssoFinal\bin\Debug\RecoinssoFinal.exe
+C:\Users\LEO\Desktop\Repositorios\Darkdans\Management-system\RecoinssoFinal\RecoinssoFinal\bin\Debug\RecoinssoFinal.pdb
+C:\Users\LEO\Desktop\Repositorios\Darkdans\Management-system\RecoinssoFinal\RecoinssoFinal\obj\Debug\RecoinssoFinal.csproj.AssemblyReference.cache
+C:\Users\LEO\Desktop\Repositorios\Darkdans\Management-system\RecoinssoFinal\RecoinssoFinal\obj\Debug\RecoinssoFinal.csproj.SuggestedBindingRedirects.cache
+C:\Users\LEO\Desktop\Repositorios\Darkdans\Management-system\RecoinssoFinal\RecoinssoFinal\obj\Debug\RecoinssoFinal.LoginForm.resources
+C:\Users\LEO\Desktop\Repositorios\Darkdans\Management-system\RecoinssoFinal\RecoinssoFinal\obj\Debug\RecoinssoFinal.Properties.Resources.resources
+C:\Users\LEO\Desktop\Repositorios\Darkdans\Management-system\RecoinssoFinal\RecoinssoFinal\obj\Debug\RecoinssoFinal.csproj.GenerateResource.cache
+C:\Users\LEO\Desktop\Repositorios\Darkdans\Management-system\RecoinssoFinal\RecoinssoFinal\obj\Debug\RecoinssoFinal.csproj.CoreCompileInputs.cache
+C:\Users\LEO\Desktop\Repositorios\Darkdans\Management-system\RecoinssoFinal\RecoinssoFinal\obj\Debug\RecoinssoFinal.exe
+C:\Users\LEO\Desktop\Repositorios\Darkdans\Management-system\RecoinssoFinal\RecoinssoFinal\obj\Debug\RecoinssoFinal.pdb
+C:\Users\LEO\Desktop\Repositorios\Darkdans\Management-system\RecoinssoFinal\RecoinssoFinal\obj\Debug\RecoinssoFinal.Presentación.Clientes.ClientesAlta.resources
+C:\Users\LEO\Desktop\Repositorios\Darkdans\Management-system\RecoinssoFinal\RecoinssoFinal\obj\Debug\RecoinssoFinal.Presentación.Clientes.ClientesControl.resources
+C:\Users\LEO\Desktop\Repositorios\Darkdans\Management-system\RecoinssoFinal\RecoinssoFinal\obj\Debug\RecoinssoFinal.Presentación.Tecnicos.TecnicosAlta.resources
+C:\Users\LEO\Desktop\Repositorios\Darkdans\Management-system\RecoinssoFinal\RecoinssoFinal\obj\Debug\RecoinssoFinal.Presentación.Tecnicos.TecnicosControl.resources
+C:\Users\LEO\Desktop\Repositorios\Darkdans\Management-system\RecoinssoFinal\RecoinssoFinal\obj\Debug\RecoinssoFinal.Presentación.Servicios.ServiciosAlta.resources
+C:\Users\LEO\Desktop\Repositorios\Darkdans\Management-system\RecoinssoFinal\RecoinssoFinal\obj\Debug\RecoinssoFinal.Presentación.Servicios.ServiciosControl.resources
+C:\Users\LEO\Desktop\Repositorios\Darkdans\Management-system\RecoinssoFinal\RecoinssoFinal\obj\Debug\RecoinssoFinal.Presentación.VentanaPrincipal.resources
+C:\Users\LEO\Desktop\Repositorios\Darkdans\Management-system\RecoinssoFinal\RecoinssoFinal\obj\Debug\RecoinssoFinal.Presentación.Usuarios.resources
+C:\Users\LEO\Desktop\Repositorios\Darkdans\Management-system\RecoinssoFinal\RecoinssoFinal\obj\Debug\RecoinssoFinal.Presentación.Registrarse.resources
+C:\Users\LEO\Desktop\Repositorios\Darkdans\Management-system\RecoinssoFinal\RecoinssoFinal\obj\Debug\RecoinssoFinal.Presentación.Reportes.Reporte.resources
+C:\Users\LEO\Desktop\Repositorios\Darkdans\Management-system\RecoinssoFinal\RecoinssoFinal\obj\Debug\RecoinssoFinal.Presentación.Reportes.Soluciones.resources
+C:\Users\LEO\Desktop\Repositorios\Darkdans\Management-system\RecoinssoFinal\RecoinssoFinal\obj\Debug\RecoinssoFinal.Presentación.Reportes.Pagos.resources
+C:\Users\LEO\Desktop\Repositorios\Darkdans\Management-system\RecoinssoFinal\RecoinssoFinal\obj\Debug\RecoinssoFinal.Presentación.Ticket.Tickets.resources
+C:\Users\LEO\Desktop\Repositorios\Darkdans\Management-system\RecoinssoFinal\RecoinssoFinal\obj\Debug\RecoinssoFinal.Presentación.Alarmas.InfoAlarmas.resources
+C:\Users\LEO\Desktop\Cajero\Cajero\RecoinssoFinal\obj\Debug\RecoinssoFinal.csproj.AssemblyReference.cache
+C:\Users\LEO\Desktop\Cajero\Cajero\RecoinssoFinal\obj\Debug\RecoinssoFinal.csproj.SuggestedBindingRedirects.cache
+C:\Users\LEO\Desktop\Cajero\Cajero\RecoinssoFinal\obj\Debug\RecoinssoFinal.Presentación.Usuarios.resources
+C:\Users\LEO\Desktop\Cajero\Cajero\RecoinssoFinal\obj\Debug\RecoinssoFinal.Presentación.VentanaPrincipal.resources
+C:\Users\LEO\Desktop\Cajero\Cajero\RecoinssoFinal\obj\Debug\RecoinssoFinal.Properties.Resources.resources
+C:\Users\LEO\Desktop\Cajero\Cajero\RecoinssoFinal\obj\Debug\RecoinssoFinal.csproj.GenerateResource.cache
+C:\Users\LEO\Desktop\Cajero\Cajero\RecoinssoFinal\obj\Debug\RecoinssoFinal.csproj.CoreCompileInputs.cache
+C:\Users\LEO\Desktop\Cajero\Cajero\RecoinssoFinal\obj\Debug\RecoinssoFinal.exe
+C:\Users\LEO\Desktop\Cajero\Cajero\RecoinssoFinal\obj\Debug\RecoinssoFinal.pdb
+C:\Users\LEO\Desktop\Cajero\Cajero\RecoinssoFinal\bin\Debug\RecoinssoFinal.exe.config
+C:\Users\LEO\Desktop\Cajero\Cajero\RecoinssoFinal\bin\Debug\RecoinssoFinal.exe
+C:\Users\LEO\Desktop\Cajero\Cajero\RecoinssoFinal\bin\Debug\RecoinssoFinal.pdb
+C:\Users\LEO\Desktop\Cajero\Cajero\RecoinssoFinal\obj\Debug\RecoinssoFinal.Presentación.VentanaMenú.Menú.resources
+C:\Users\LEO\Desktop\Cajero\Cajero\RecoinssoFinal\obj\Debug\RecoinssoFinal.Presentación.MenuBalance.resources
+C:\Users\LEO\Desktop\Cajero\Cajero\RecoinssoFinal\obj\Debug\RecoinssoFinal.Presentación.Retirar.MenuRetirar.resources
+C:\Users\LEO\Desktop\Cajero\Cajero\RecoinssoFinal\obj\Debug\RecoinssoFinal.Presentación.Retirar.MenuRetirarEspecifico.resources
+C:\Users\LEO\Desktop\Cajero\Cajero\RecoinssoFinal\obj\Debug\RecoinssoFinal.Presentación.Ingresar.MenuIngresar.resources
+C:\Users\LEO\Desktop\Cajero\Cajero\RecoinssoFinal\obj\Debug\RecoinssoFinal.Presentación.Transferencia.MenuTransferencia.resources
+C:\Users\LEO\Desktop\Cajero\Cajero\RecoinssoFinal\obj\Debug\RecoinssoFinal.Presentación.Transferencia.MenuTransferenciaCuenta.resources
