@@ -146,26 +146,33 @@ namespace RecoinssoFinal.Presentación.Transferencia
                 UsuarioDestinatario = conexion.nombreUsuarioPorClave(ClaveDestinatario);
                 if (UsuarioID != UsuarioDestinatario)
                 {
-                    exito = conexion.AgregarEfectivoSinMensaje(UsuarioDestinatario, Cantidad);
-                    if (exito == true)
+                    if (UsuarioDestinatario > 0)
                     {
-                        resultadoRetiro = conexion.RetirarEfectivoSinMensaje(UsuarioID, Cantidad);
-                        if (resultadoRetiro == true)
+                        exito = conexion.AgregarEfectivoSinMensaje(UsuarioDestinatario, Cantidad);
+                        if (exito == true)
                         {
-                            MessageBox.Show("La transferencia fue un éxito");
-                            this.Close();
-                            VentanaPrincipal ventanaPrincipal = new VentanaPrincipal();
-                            ventanaPrincipal.Show();
+                            resultadoRetiro = conexion.RetirarEfectivoSinMensaje(UsuarioID, Cantidad);
+                            if (resultadoRetiro == true)
+                            {
+                                MessageBox.Show("La transferencia fue un éxito");
+                                this.Close();
+                                VentanaPrincipal ventanaPrincipal = new VentanaPrincipal();
+                                ventanaPrincipal.Show();
+                            }
+                            else
+                            {
+                                MessageBox.Show("Sucedio un error al intentar retirar fondos a su cuenta.");
+                            }
                         }
                         else
                         {
-                            MessageBox.Show("Sucedio un error al intentar retirar fondos a su cuenta.");
+                            MessageBox.Show("Sucedio un error al intentar ingresar dinero al destino.");
                         }
-                    }
-                    else
+                    } else
                     {
-                        MessageBox.Show("Sucedio un error al intentar ingresar dinero al destinatario.");
+                        MessageBox.Show("La cuenta a enviar el dinero no existe, intente de nuevo.");
                     }
+                    
                 }
                 else
                 {
