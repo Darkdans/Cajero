@@ -28,10 +28,9 @@ namespace RecoinssoFinal.Presentación.VentanaMenú
             switch (result)
             {
                 case DialogResult.Yes:
-                    this.Hide();
+                    this.Close();
                     VentanaPrincipal ventanaPrincipal = new VentanaPrincipal();
-                    ventanaPrincipal.ShowDialog();
-                    this.Show();
+                    ventanaPrincipal.Show();
                     break;
                 case DialogResult.No:
                     return;
@@ -76,10 +75,9 @@ namespace RecoinssoFinal.Presentación.VentanaMenú
             switch (result)
             {
                 case DialogResult.Yes:
-                    this.Hide();
+                    this.Close();
                     VentanaPrincipal ventanaPrincipal = new VentanaPrincipal();
-                    ventanaPrincipal.ShowDialog();
-                    this.Show();
+                    ventanaPrincipal.Show();
                     break;
                 case DialogResult.No:
                     return;
@@ -88,57 +86,53 @@ namespace RecoinssoFinal.Presentación.VentanaMenú
 
         private void btnBalance_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            this.Close();
             MenuBalance balance = new MenuBalance();
             int UsuarioID = 0; string Saldo = "";
             int.TryParse(lblUsuarioID.Text.ToString(), out UsuarioID);
             Saldo = balanceDA.MostrarBalanceUsuario(UsuarioID);
             balance.lblUsuario.Text = lblUsuario.Text.ToString();
             balance.lblBalance.Text = Saldo;
-            balance.ShowDialog();
-            this.Show();
+            balance.Show();
         }
 
         private void btnRetirar_Click(object sender, EventArgs e)
         {
             string Saldo = "";
             int UsuarioID = 0;
-            this.Hide();
+            this.Close();
             int.TryParse(lblUsuarioID.Text.ToString(), out UsuarioID);
             MenuRetirar retirar = new MenuRetirar();
             Saldo = balanceDA.MostrarBalanceUsuario(UsuarioID);
             retirar.lblBalance.Text = Saldo;
             retirar.lblUsuarioID.Text = UsuarioID.ToString();
-            retirar.ShowDialog();
-            this.Show();
+            retirar.Show();
         }
 
         private void btnTransferir_Click(object sender, EventArgs e)
         {
             string Saldo = "";
             int UsuarioID = 0;
-            this.Hide();
+            this.Close();
             int.TryParse(lblUsuarioID.Text.ToString(), out UsuarioID);
             MenuTransferencia transferencia = new MenuTransferencia();
             Saldo = balanceDA.MostrarBalanceUsuario(UsuarioID);
             transferencia.lblBalance.Text = Saldo;
             transferencia.lblUsuarioID.Text = UsuarioID.ToString();
-            transferencia.ShowDialog();
-            this.Show();
+            transferencia.Show();
         }
 
         private void btnIngresar_Click(object sender, EventArgs e)
         {
             string Saldo = "";
             int UsuarioID = 0;
-            this.Hide();
+            this.Close();
             int.TryParse(lblUsuarioID.Text.ToString(), out UsuarioID);
             MenuIngresar ingresar = new MenuIngresar();
             Saldo = balanceDA.MostrarBalanceUsuario(UsuarioID);
             ingresar.lblBalance.Text = Saldo;
             ingresar.lblUsuarioID.Text = UsuarioID.ToString();
-            ingresar.ShowDialog();
-            this.Show();
+            ingresar.Show();
         }
     }
 }

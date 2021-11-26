@@ -40,7 +40,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.panelContenedor = new System.Windows.Forms.Panel();
             this.lblCantidad = new System.Windows.Forms.Label();
-            this.txtCuenta = new System.Windows.Forms.TextBox();
             this.btnServicios = new System.Windows.Forms.Button();
             this.btnConfirmar = new System.Windows.Forms.Button();
             this.lblUsuarioID = new System.Windows.Forms.Label();
@@ -66,6 +65,7 @@
             this.btnNumero2 = new System.Windows.Forms.Button();
             this.btnNumero1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.txtCuenta = new System.Windows.Forms.TextBox();
             this.BarraTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
@@ -191,8 +191,8 @@
             // panelContenedor
             // 
             this.panelContenedor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
-            this.panelContenedor.Controls.Add(this.lblCantidad);
             this.panelContenedor.Controls.Add(this.txtCuenta);
+            this.panelContenedor.Controls.Add(this.lblCantidad);
             this.panelContenedor.Controls.Add(this.btnServicios);
             this.panelContenedor.Controls.Add(this.btnConfirmar);
             this.panelContenedor.Controls.Add(this.lblUsuarioID);
@@ -212,13 +212,7 @@
             this.lblCantidad.Size = new System.Drawing.Size(59, 13);
             this.lblCantidad.TabIndex = 95;
             this.lblCantidad.Text = "lblCantidad";
-            // 
-            // txtCuenta
-            // 
-            this.txtCuenta.Location = new System.Drawing.Point(17, 216);
-            this.txtCuenta.Name = "txtCuenta";
-            this.txtCuenta.Size = new System.Drawing.Size(234, 20);
-            this.txtCuenta.TabIndex = 94;
+            this.lblCantidad.Visible = false;
             // 
             // btnServicios
             // 
@@ -266,6 +260,7 @@
             this.lblUsuarioID.Size = new System.Drawing.Size(64, 13);
             this.lblUsuarioID.TabIndex = 79;
             this.lblUsuarioID.Text = "lblUsuarioID";
+            this.lblUsuarioID.Visible = false;
             // 
             // btnSalir
             // 
@@ -327,6 +322,7 @@
             this.lblUsuario.Name = "lblUsuario";
             this.lblUsuario.Size = new System.Drawing.Size(0, 20);
             this.lblUsuario.TabIndex = 74;
+            this.lblUsuario.Visible = false;
             // 
             // btnAceptar
             // 
@@ -703,6 +699,13 @@
             this.panel1.Size = new System.Drawing.Size(222, 195);
             this.panel1.TabIndex = 80;
             // 
+            // txtCuenta
+            // 
+            this.txtCuenta.Location = new System.Drawing.Point(21, 227);
+            this.txtCuenta.Name = "txtCuenta";
+            this.txtCuenta.Size = new System.Drawing.Size(235, 20);
+            this.txtCuenta.TabIndex = 96;
+            // 
             // MenuTransferenciaCuenta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -771,8 +774,8 @@
         private System.Windows.Forms.Button btnNumero1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnConfirmar;
-        public System.Windows.Forms.TextBox txtCuenta;
         public System.Windows.Forms.Button btnServicios;
         public System.Windows.Forms.Label lblCantidad;
+        private System.Windows.Forms.TextBox txtCuenta;
     }
 }

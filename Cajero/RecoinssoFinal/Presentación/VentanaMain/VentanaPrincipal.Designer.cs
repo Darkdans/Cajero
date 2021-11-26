@@ -53,6 +53,7 @@
             this.btnNumero2 = new System.Windows.Forms.Button();
             this.btnNumero1 = new System.Windows.Forms.Button();
             this.panelContenedor = new System.Windows.Forms.Panel();
+            this.lblUsuarioID = new System.Windows.Forms.Label();
             this.lblUsuario = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -65,7 +66,8 @@
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.btnServicios = new System.Windows.Forms.Button();
             this.pictureBoxCajero = new System.Windows.Forms.PictureBox();
-            this.lblUsuarioID = new System.Windows.Forms.Label();
+            this.btnBalance = new System.Windows.Forms.Button();
+            this.btnTransferir = new System.Windows.Forms.Button();
             this.BarraTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
@@ -538,6 +540,8 @@
             // panelContenedor
             // 
             this.panelContenedor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            this.panelContenedor.Controls.Add(this.btnTransferir);
+            this.panelContenedor.Controls.Add(this.btnBalance);
             this.panelContenedor.Controls.Add(this.lblUsuarioID);
             this.panelContenedor.Controls.Add(this.lblUsuario);
             this.panelContenedor.Controls.Add(this.panel2);
@@ -549,7 +553,16 @@
             this.panelContenedor.Name = "panelContenedor";
             this.panelContenedor.Size = new System.Drawing.Size(369, 398);
             this.panelContenedor.TabIndex = 2;
-            this.panelContenedor.Paint += new System.Windows.Forms.PaintEventHandler(this.panelContenedor_Paint);
+            // 
+            // lblUsuarioID
+            // 
+            this.lblUsuarioID.AutoSize = true;
+            this.lblUsuarioID.Location = new System.Drawing.Point(287, 90);
+            this.lblUsuarioID.Name = "lblUsuarioID";
+            this.lblUsuarioID.Size = new System.Drawing.Size(64, 13);
+            this.lblUsuarioID.TabIndex = 74;
+            this.lblUsuarioID.Text = "lblUsuarioID";
+            this.lblUsuarioID.Visible = false;
             // 
             // lblUsuario
             // 
@@ -695,15 +708,37 @@
             this.pictureBoxCajero.TabIndex = 1;
             this.pictureBoxCajero.TabStop = false;
             // 
-            // lblUsuarioID
+            // btnBalance
             // 
-            this.lblUsuarioID.AutoSize = true;
-            this.lblUsuarioID.Location = new System.Drawing.Point(287, 90);
-            this.lblUsuarioID.Name = "lblUsuarioID";
-            this.lblUsuarioID.Size = new System.Drawing.Size(64, 13);
-            this.lblUsuarioID.TabIndex = 74;
-            this.lblUsuarioID.Text = "lblUsuarioID";
-            this.lblUsuarioID.Visible = false;
+            this.btnBalance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(187)))), ((int)(((byte)(137)))));
+            this.btnBalance.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(142)))), ((int)(((byte)(236)))));
+            this.btnBalance.FlatAppearance.BorderSize = 0;
+            this.btnBalance.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnBalance.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBalance.ForeColor = System.Drawing.SystemColors.Window;
+            this.btnBalance.Location = new System.Drawing.Point(266, 300);
+            this.btnBalance.Name = "btnBalance";
+            this.btnBalance.Size = new System.Drawing.Size(100, 45);
+            this.btnBalance.TabIndex = 77;
+            this.btnBalance.Text = "Aceptar";
+            this.btnBalance.UseVisualStyleBackColor = false;
+            this.btnBalance.Click += new System.EventHandler(this.btnAceptar_Click);
+            // 
+            // btnTransferir
+            // 
+            this.btnTransferir.BackColor = System.Drawing.Color.Gray;
+            this.btnTransferir.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(142)))), ((int)(((byte)(236)))));
+            this.btnTransferir.FlatAppearance.BorderSize = 0;
+            this.btnTransferir.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnTransferir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTransferir.ForeColor = System.Drawing.SystemColors.Window;
+            this.btnTransferir.Location = new System.Drawing.Point(3, 300);
+            this.btnTransferir.Name = "btnTransferir";
+            this.btnTransferir.Size = new System.Drawing.Size(100, 45);
+            this.btnTransferir.TabIndex = 78;
+            this.btnTransferir.Text = "Limpiar";
+            this.btnTransferir.UseVisualStyleBackColor = false;
+            this.btnTransferir.Click += new System.EventHandler(this.btnLimpiar_Click);
             // 
             // VentanaPrincipal
             // 
@@ -775,5 +810,7 @@
         public System.Windows.Forms.Button btnServicios;
         public System.Windows.Forms.Label lblUsuario;
         public System.Windows.Forms.Label lblUsuarioID;
+        private System.Windows.Forms.Button btnBalance;
+        private System.Windows.Forms.Button btnTransferir;
     }
 }

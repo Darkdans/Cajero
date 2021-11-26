@@ -35,10 +35,9 @@ namespace RecoinssoFinal.Presentación.Retirar
                     exito = conexion.RetirarEfectivo(UsuarioID, Cantidad);
                     if (exito == true)
                     {
-                        this.Hide();
+                        this.Close();
                         VentanaPrincipal ventanaPrincipal = new VentanaPrincipal();
-                        ventanaPrincipal.ShowDialog();
-                        this.Show();
+                        ventanaPrincipal.Show();
                     }
                     else
                     {
@@ -82,10 +81,9 @@ namespace RecoinssoFinal.Presentación.Retirar
 
         private void btnSalir_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            this.Close();
             VentanaPrincipal ventanaPrincipal = new VentanaPrincipal();
-            ventanaPrincipal.ShowDialog();
-            this.Show();
+            ventanaPrincipal.Show();
         }
 
         private void btnLimpiar_Click(object sender, EventArgs e)

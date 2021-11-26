@@ -222,5 +222,17 @@ namespace RecoinssoFinal.DataAccess
             SqlCommand SQLComando = new SqlCommand("UPDATE cuentas SET saldo += " + cantidad + " WHERE usuarioID = " + usuarioID);
             return ejecturarComandosSinRetornoDatos(SQLComando, mensajeBox);
         }
+
+        public bool RetirarEfectivoSinMensaje(int usuarioID, int cantidad)
+        {
+            SqlCommand SQLComando = new SqlCommand("UPDATE cuentas SET saldo -= " + cantidad + " WHERE usuarioID = " + usuarioID);
+            return ejecturarComandosSinRetornoDatos(SQLComando);
+        }
+
+        public bool AgregarEfectivoSinMensaje(int usuarioID, int cantidad)
+        {
+            SqlCommand SQLComando = new SqlCommand("UPDATE cuentas SET saldo += " + cantidad + " WHERE usuarioID = " + usuarioID);
+            return ejecturarComandosSinRetornoDatos(SQLComando);
+        }
     }
 }

@@ -30,10 +30,9 @@ namespace RecoinssoFinal.Presentación.Transferencia
             switch (result)
             {
                 case DialogResult.Yes:
-                    this.Hide();
+                    this.Close();
                     VentanaPrincipal ventanaPrincipal = new VentanaPrincipal();
-                    ventanaPrincipal.ShowDialog();
-                    this.Show();
+                    ventanaPrincipal.Show();
                     break;
                 case DialogResult.No:
                     return;
@@ -98,10 +97,9 @@ namespace RecoinssoFinal.Presentación.Transferencia
             switch (result)
             {
                 case DialogResult.Yes:
-                    this.Hide();
+                    this.Close();
                     VentanaPrincipal ventanaPrincipal = new VentanaPrincipal();
-                    ventanaPrincipal.ShowDialog();
-                    this.Show();
+                    ventanaPrincipal.Show();
                     break;
                 case DialogResult.No:
                     return;
@@ -134,12 +132,11 @@ namespace RecoinssoFinal.Presentación.Transferencia
                 int Saldo = conexion.VerificarEfectivo(UsuarioID);
                 if (Saldo >= Cantidad)
                 {
-                    this.Hide();
+                    this.Close();
                     MenuTransferenciaCuenta menuTrans = new MenuTransferenciaCuenta();
                     menuTrans.lblCantidad.Text = Cantidad.ToString();
                     menuTrans.lblUsuario.Text = UsuarioID.ToString();
-                    menuTrans.ShowDialog();
-                    this.Show();
+                    menuTrans.Show();
                 }
                 else
                 {

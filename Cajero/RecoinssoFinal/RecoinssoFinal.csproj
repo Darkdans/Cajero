@@ -60,6 +60,12 @@
     <Compile Include="Presentación\Balance\MenuBalance.Designer.cs">
       <DependentUpon>MenuBalance.cs</DependentUpon>
     </Compile>
+    <Compile Include="Presentación\Encender\VentanaEncender.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentación\Encender\VentanaEncender.Designer.cs">
+      <DependentUpon>VentanaEncender.cs</DependentUpon>
+    </Compile>
     <Compile Include="Presentación\Ingresar\MenuIngresar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -112,6 +118,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Presentación\Balance\MenuBalance.resx">
       <DependentUpon>MenuBalance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentación\Encender\VentanaEncender.resx">
+      <DependentUpon>VentanaEncender.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Presentación\Ingresar\MenuIngresar.resx">
       <DependentUpon>MenuIngresar.cs</DependentUpon>

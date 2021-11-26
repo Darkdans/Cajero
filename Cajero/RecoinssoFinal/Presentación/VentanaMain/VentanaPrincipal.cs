@@ -182,11 +182,12 @@ namespace RecoinssoFinal.Presentación
                 int estatus = conexion.login(recuperarInformación());
                 if (estatus > 0)
                 {
-                    string Nombre = conexion.nombreUsuario(estatus);
+                    VentanaPrincipal ventana = new VentanaPrincipal();
+                    this.Close();
                     Menú menu = new Menú();
+                    string Nombre = conexion.nombreUsuario(estatus);
                     menu.lblUsuario.Text = Nombre.ToString();
                     menu.lblUsuarioID.Text = estatus.ToString();
-                    this.Hide();
                     menu.Show();
                 }
                 else
@@ -194,11 +195,6 @@ namespace RecoinssoFinal.Presentación
                     core.messageBox("PIN incorrecto, favor de intentarlo de nuevo.");
                 }
             }
-        }
-
-        private void panelContenedor_Paint(object sender, PaintEventArgs e)
-        {
-
         }
     }
 }

@@ -42,7 +42,6 @@
             this.panelContenedor = new System.Windows.Forms.Panel();
             this.btnConfirmar = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
-            this.txtCantidad = new System.Windows.Forms.TextBox();
             this.btnServicios = new System.Windows.Forms.Button();
             this.lblBalance = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -68,6 +67,7 @@
             this.btnNumero2 = new System.Windows.Forms.Button();
             this.btnNumero1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.txtCantidad = new System.Windows.Forms.TextBox();
             this.BarraTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
@@ -203,9 +203,9 @@
             // panelContenedor
             // 
             this.panelContenedor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            this.panelContenedor.Controls.Add(this.txtCantidad);
             this.panelContenedor.Controls.Add(this.btnConfirmar);
             this.panelContenedor.Controls.Add(this.btnSalir);
-            this.panelContenedor.Controls.Add(this.txtCantidad);
             this.panelContenedor.Controls.Add(this.btnServicios);
             this.panelContenedor.Controls.Add(this.lblBalance);
             this.panelContenedor.Controls.Add(this.label2);
@@ -249,13 +249,6 @@
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = false;
             this.btnSalir.Click += new System.EventHandler(this.btnCancelar_Click);
-            // 
-            // txtCantidad
-            // 
-            this.txtCantidad.Location = new System.Drawing.Point(17, 242);
-            this.txtCantidad.Name = "txtCantidad";
-            this.txtCantidad.Size = new System.Drawing.Size(234, 20);
-            this.txtCantidad.TabIndex = 90;
             // 
             // btnServicios
             // 
@@ -734,6 +727,13 @@
             this.panel1.Size = new System.Drawing.Size(222, 195);
             this.panel1.TabIndex = 76;
             // 
+            // txtCantidad
+            // 
+            this.txtCantidad.Location = new System.Drawing.Point(20, 242);
+            this.txtCantidad.Name = "txtCantidad";
+            this.txtCantidad.Size = new System.Drawing.Size(213, 20);
+            this.txtCantidad.TabIndex = 77;
+            // 
             // MenuTransferencia
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -800,12 +800,12 @@
         private System.Windows.Forms.Button btnNumero2;
         private System.Windows.Forms.Button btnNumero1;
         private System.Windows.Forms.Panel panel1;
-        public System.Windows.Forms.TextBox txtCantidad;
         public System.Windows.Forms.Button btnServicios;
         public System.Windows.Forms.Label lblBalance;
         private System.Windows.Forms.Label label2;
         public System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnConfirmar;
         private System.Windows.Forms.Button btnSalir;
+        private System.Windows.Forms.TextBox txtCantidad;
     }
 }

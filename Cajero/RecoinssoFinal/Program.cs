@@ -1,4 +1,5 @@
 ﻿using RecoinssoFinal.Presentación;
+using RecoinssoFinal.Presentación.Encender;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +18,7 @@ namespace RecoinssoFinal
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new VentanaPrincipal());
+            Application.Run(new VentanaEncender());
         }
     }
 }

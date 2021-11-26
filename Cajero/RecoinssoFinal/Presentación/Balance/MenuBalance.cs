@@ -55,10 +55,9 @@ namespace RecoinssoFinal.Presentación
 
         private void btnConfirmar_Click(object sender, EventArgs e)
         {
-            this.Hide();
             VentanaPrincipal menu = new VentanaPrincipal();
-            menu.ShowDialog();
-            this.Show();
+            this.Close();
+            menu.Show();
         }
     }
 }

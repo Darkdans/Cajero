@@ -26,10 +26,9 @@ namespace RecoinssoFinal.Presentación.Transferencia
             switch (result)
             {
                 case DialogResult.Yes:
-                    this.Hide();
+                    this.Close();
                     VentanaPrincipal ventanaPrincipal = new VentanaPrincipal();
-                    ventanaPrincipal.ShowDialog();
-                    this.Show();
+                    ventanaPrincipal.Show();
                     break;
                 case DialogResult.No:
                     return;
@@ -48,10 +47,9 @@ namespace RecoinssoFinal.Presentación.Transferencia
             switch (result)
             {
                 case DialogResult.Yes:
-                    this.Hide();
+                    this.Close();
                     VentanaPrincipal ventanaPrincipal = new VentanaPrincipal();
-                    ventanaPrincipal.ShowDialog();
-                    this.Show();
+                    ventanaPrincipal.Show();
                     break;
                 case DialogResult.No:
                     return;
@@ -113,10 +111,9 @@ namespace RecoinssoFinal.Presentación.Transferencia
 
         private void btnCancelar_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            this.Close();
             VentanaPrincipal ventanaPrincipal = new VentanaPrincipal();
-            ventanaPrincipal.ShowDialog();
-            this.Show();
+            ventanaPrincipal.Show();
         }
 
         private void btnLimpiar_Click(object sender, EventArgs e)
@@ -149,18 +146,16 @@ namespace RecoinssoFinal.Presentación.Transferencia
                 UsuarioDestinatario = conexion.nombreUsuarioPorClave(ClaveDestinatario);
                 if (UsuarioID != UsuarioDestinatario)
                 {
-                    exito = conexion.AgregarEfectivo(UsuarioDestinatario, Cantidad);
+                    exito = conexion.AgregarEfectivoSinMensaje(UsuarioDestinatario, Cantidad);
                     if (exito == true)
                     {
-                        resultadoRetiro = conexion.RetirarEfectivo(UsuarioID, Cantidad);
-                        MessageBox.Show("Cantidad" + Cantidad);
-                        MessageBox.Show("UsuarioID." + UsuarioID);
+                        resultadoRetiro = conexion.RetirarEfectivoSinMensaje(UsuarioID, Cantidad);
                         if (resultadoRetiro == true)
                         {
-                            this.Hide();
+                            MessageBox.Show("La transferencia fue un éxito");
+                            this.Close();
                             VentanaPrincipal ventanaPrincipal = new VentanaPrincipal();
-                            ventanaPrincipal.ShowDialog();
-                            this.Show();
+                            ventanaPrincipal.Show();
                         }
                         else
                         {
@@ -174,7 +169,7 @@ namespace RecoinssoFinal.Presentación.Transferencia
                 }
                 else
                 {
-                    MessageBox.Show("La cuenta destitario no puede ser igual que tu cuenta.");
+                    MessageBox.Show("La cuenta destino no puede ser igual que tu cuenta.");
                 }
             }
             else

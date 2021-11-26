@@ -38,10 +38,9 @@ namespace RecoinssoFinal.Presentación.Retirar
             switch (result)
             {
                 case DialogResult.Yes:
-                    this.Hide();
+                    this.Close();
                     VentanaPrincipal ventanaPrincipal = new VentanaPrincipal();
-                    ventanaPrincipal.ShowDialog();
-                    this.Show();
+                    ventanaPrincipal.Show();
                     break;
                 case DialogResult.No:
                     return;
@@ -61,10 +60,9 @@ namespace RecoinssoFinal.Presentación.Retirar
                 exito = conexion.RetirarEfectivo(UsuarioID, valor);
                 if (exito == true)
                 {
-                    this.Hide();
+                    this.Close();
                     VentanaPrincipal ventanaPrincipal = new VentanaPrincipal();
-                    ventanaPrincipal.ShowDialog();
-                    this.Show();
+                    ventanaPrincipal.Show();
                 }
                 else
                 {
@@ -90,10 +88,9 @@ namespace RecoinssoFinal.Presentación.Retirar
                 exito = conexion.RetirarEfectivo(UsuarioID, valor);
                 if (exito == true)
                 {
-                    this.Hide();
+                    this.Close();
                     VentanaPrincipal ventanaPrincipal = new VentanaPrincipal();
-                    ventanaPrincipal.ShowDialog();
-                    this.Show();
+                    ventanaPrincipal.Show();
                 }
                 else
                 {
@@ -119,10 +116,9 @@ namespace RecoinssoFinal.Presentación.Retirar
                 exito = conexion.RetirarEfectivo(UsuarioID, valor);
                 if (exito == true)
                 {
-                    this.Hide();
+                    this.Close();
                     VentanaPrincipal ventanaPrincipal = new VentanaPrincipal();
-                    ventanaPrincipal.ShowDialog();
-                    this.Show();
+                    ventanaPrincipal.Show();
                 }
                 else
                 {
@@ -137,10 +133,9 @@ namespace RecoinssoFinal.Presentación.Retirar
 
         private void btnSalir_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            this.Close();
             VentanaPrincipal ventanaPrincipal = new VentanaPrincipal();
-            ventanaPrincipal.ShowDialog();
-            this.Show();
+            ventanaPrincipal.Show();
         }
 
         private void btn500_Click(object sender, EventArgs e)
@@ -156,10 +151,9 @@ namespace RecoinssoFinal.Presentación.Retirar
                 exito = conexion.RetirarEfectivo(UsuarioID, valor);
                 if (exito == true)
                 {
-                    this.Hide();
+                    this.Close();
                     VentanaPrincipal ventanaPrincipal = new VentanaPrincipal();
-                    ventanaPrincipal.ShowDialog();
-                    this.Show();
+                    ventanaPrincipal.Show();
                 }
                 else
                 {
@@ -185,10 +179,9 @@ namespace RecoinssoFinal.Presentación.Retirar
                 exito = conexion.RetirarEfectivo(UsuarioID, valor);
                 if (exito == true)
                 {
-                    this.Hide();
+                    this.Close();
                     VentanaPrincipal ventanaPrincipal = new VentanaPrincipal();
-                    ventanaPrincipal.ShowDialog();
-                    this.Show();
+                    ventanaPrincipal.Show();
                 }
                 else
                 {
@@ -214,10 +207,9 @@ namespace RecoinssoFinal.Presentación.Retirar
                 exito = conexion.RetirarEfectivo(UsuarioID, valor);
                 if (exito == true)
                 {
-                    this.Hide();
+                    this.Close();
                     VentanaPrincipal ventanaPrincipal = new VentanaPrincipal();
-                    ventanaPrincipal.ShowDialog();
-                    this.Show();
+                    ventanaPrincipal.Show();
                 }
                 else
                 {
@@ -234,14 +226,13 @@ namespace RecoinssoFinal.Presentación.Retirar
         {
             string Saldo = "";
             int UsuarioID = 0;
-            this.Hide();
+            this.Close();
             int.TryParse(lblUsuarioID.Text.ToString(), out UsuarioID);
             MenuRetirarEspecifico retirar = new MenuRetirarEspecifico();
             Saldo = balanceDA.MostrarBalanceUsuario(UsuarioID);
             retirar.lblBalance.Text = Saldo;
             retirar.lblUsuarioID.Text = UsuarioID.ToString();
-            retirar.ShowDialog();
-            this.Show();
+            retirar.Show();
         }
     }
 }
