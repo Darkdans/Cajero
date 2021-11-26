@@ -40,6 +40,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.lblUsuarioID = new System.Windows.Forms.Label();
             this.panelContenedor = new System.Windows.Forms.Panel();
+            this.txtCantidad = new System.Windows.Forms.TextBox();
             this.btnConfirmar = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
             this.btnServicios = new System.Windows.Forms.Button();
@@ -67,7 +68,6 @@
             this.btnNumero2 = new System.Windows.Forms.Button();
             this.btnNumero1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.txtCantidad = new System.Windows.Forms.TextBox();
             this.BarraTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
@@ -217,6 +217,14 @@
             this.panelContenedor.Name = "panelContenedor";
             this.panelContenedor.Size = new System.Drawing.Size(369, 398);
             this.panelContenedor.TabIndex = 4;
+            // 
+            // txtCantidad
+            // 
+            this.txtCantidad.Location = new System.Drawing.Point(20, 242);
+            this.txtCantidad.Name = "txtCantidad";
+            this.txtCantidad.Size = new System.Drawing.Size(213, 20);
+            this.txtCantidad.TabIndex = 77;
+            this.txtCantidad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCantidad_KeyPress);
             // 
             // btnConfirmar
             // 
@@ -726,13 +734,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(222, 195);
             this.panel1.TabIndex = 76;
-            // 
-            // txtCantidad
-            // 
-            this.txtCantidad.Location = new System.Drawing.Point(20, 242);
-            this.txtCantidad.Name = "txtCantidad";
-            this.txtCantidad.Size = new System.Drawing.Size(213, 20);
-            this.txtCantidad.TabIndex = 77;
             // 
             // MenuTransferencia
             // 
